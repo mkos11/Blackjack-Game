@@ -61,7 +61,7 @@ def calculate_score(cards):
 def compare(user_score, computer_score):
   #Bug fix. If you and the computer are both over, you lose.
   if user_score > 21 and computer_score > 21:
-    return "You went over. You lose 😤"
+    return "You went over. You lose all the Money 😤"
 
 
   if user_score == computer_score:
@@ -75,9 +75,9 @@ def compare(user_score, computer_score):
   elif computer_score > 21:
     return "Opponent went over. You win 😁"
   elif user_score > computer_score:
-    return "You win 😃"
+    return "You win 1000$ 😃"
   else:
-    return "You lose 😤"
+    return "You lose all Money 😤"
 
 def play_game():
 
